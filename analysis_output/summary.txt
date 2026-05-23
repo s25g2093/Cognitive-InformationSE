@@ -1,0 +1,33 @@
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:                   平均地価   R-squared:                       0.488
+Model:                            OLS   Adj. R-squared:                  0.443
+Method:                 Least Squares   F-statistic:                     10.90
+Date:                Wed, 20 May 2026   Prob (F-statistic):           1.40e-09
+Time:                        15:27:29   Log-Likelihood:                -1357.4
+No. Observations:                  88   AIC:                             2731.
+Df Residuals:                      80   BIC:                             2751.
+Df Model:                           7                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+const      -4.542e+04   2.68e+05     -0.169      0.866   -5.79e+05    4.88e+05
+コンビニ数       5358.8202   1404.915      3.814      0.000    2562.950    8154.690
+スーパー数      -5144.0778   4758.296     -1.081      0.283   -1.46e+04    4325.234
+ドラッグストア数    4587.2029   8758.626      0.524      0.602   -1.28e+04     2.2e+04
+病院数         7137.3027   5024.420      1.421      0.159   -2861.611    1.71e+04
+駅数          -713.0449    864.965     -0.824      0.412   -2434.380    1008.290
+公園数        -1612.7706    612.648     -2.632      0.010   -2831.980    -393.561
+学校数         9118.1025   4740.926      1.923      0.058    -316.641    1.86e+04
+==============================================================================
+Omnibus:                       38.975   Durbin-Watson:                   1.487
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):              153.655
+Skew:                           1.323   Prob(JB):                     4.31e-34
+Kurtosis:                       8.908   Cond. No.                     1.55e+03
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+[2] The condition number is large, 1.55e+03. This might indicate that there are
+strong multicollinearity or other numerical problems.
